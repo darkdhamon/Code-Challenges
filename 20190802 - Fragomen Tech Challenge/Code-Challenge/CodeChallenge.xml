@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CodeChallenge</name>
+    </assembly>
+    <members>
+        <member name="M:CodeChallenge.Controllers.MockDataController.Mode(System.Boolean)">
+            <summary>
+            Allows user to switch between SmallDB and LargeDB at runtime.
+            </summary>
+            <remarks>
+            # Testing Only
+            Set smallFile to true for SmallDB or false for largeDB
+            </remarks>
+            <param name="smallFile"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CodeChallenge.Controllers.QuotesController.Get">
+            <summary>
+            Get the full list of quotes
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CodeChallenge.Controllers.QuotesController.Page(System.Int32,System.Int32)">
+            <summary>
+            Get a page of quotes 
+            </summary>
+            <param name="page"></param>
+            <param name="size"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CodeChallenge.Controllers.QuotesController.Get(System.Int32)">
+            <summary>
+            Get Quote by ID
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CodeChallenge.Controllers.QuotesController.Post(CodeChallenge.Model.Quote)">
+            <summary>
+            Create a new Quote
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CodeChallenge.Controllers.QuotesController.Put(System.Int64,CodeChallenge.Model.Quote)">
+            <summary>
+            Update an existing quote by ID
+            </summary>
+            <param name="id"></param>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CodeChallenge.Controllers.QuotesController.Delete(System.Int64)">
+            <summary>
+            Delete Quote by ID
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CodeChallenge.Controllers.QuotesController.PairByLengthResult(System.Int32)">
+            <summary>
+            Returns a list of unique pairs where combined text length is less than specified amount.
+            </summary>
+            <param name="maxLength"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
